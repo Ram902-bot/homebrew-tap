@@ -9,6 +9,12 @@ cask "evertalk" do
 
   app "Evertalk.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Evertalk.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/Evertalk",
     "~/Library/Caches/Evertalk",

@@ -1,6 +1,6 @@
 cask "evertalk" do
-  version "2.1.1"
-  sha256 "cc6aabfb688e08c13bdf3ea69ac76ef8b751fa577b0f1145e639643ec72bf921"
+  version "2.1.2"
+  sha256 "348a3bf3b3198cefe73b9da249356909a303d40688cb7a13348d39d10fbb2e6d"
 
   url "https://github.com/Ram902-bot/evertalk/releases/download/v#{version}/Evertalk-#{version}.zip"
   name "Evertalk"

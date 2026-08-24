@@ -18,6 +18,6 @@ cask "evertalk" do
   zap trash: [
     "~/Library/Application Support/Evertalk",
     "~/Library/Caches/Evertalk",
-    "~/Library/Preferences/com.everstage.Evertalk.plist",
+    "~/Library/Preferences/com.ram902.evertalk.plist",
   ]
 end
